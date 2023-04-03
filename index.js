@@ -5,4 +5,4 @@ const server = http.createServer(app);
 
 app.use(express.static(__dirname + '/public'));
 
-server.listen();
+server.listen(3000);
